@@ -3,6 +3,10 @@
 // Fonction sleep
 //#include <windows.h> // Pour Windows
 #include <unistd.h>  // Pour Linux (Et mac?)
+
+// Show table with the ant
+#include "Buffer.h"
+
 // TODO: Verifier comment détecter automatiquement le S.O.
 
 //#include <system>
@@ -30,6 +34,7 @@ void FillTable(/*int * tableau[][]*/){
     //return tableau;
 }
 
+/*
 // Afficher le tableau
 void ShowTable(){
     //system("cls");  // Windows
@@ -46,7 +51,7 @@ void ShowTable(){
     sleep(1);  // "Buffer" //
     // IMPORTANT : Sur Linux/Mac(?) c'est en secondes, sur Win c'est en milisecondes
 }
-
+*/
 
 // Où la fourmis va laisser son trace
 void LeaveTrace(int x, int y){
