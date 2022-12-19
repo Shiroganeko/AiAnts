@@ -36,7 +36,7 @@ void ShowTable(){
     system("clear");  //*nix (Mac aussi?)
     for (int ligne = 0; ligne < ROW_QTT; ligne++){
         for (int col = 0; col < COL_QTT; col++){
-            printf("%d \t", table[ligne][col]);
+            printf("%d \t", "🐜");
         }
         printf("\n");
     }
