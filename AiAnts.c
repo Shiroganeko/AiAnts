@@ -39,7 +39,7 @@ void ShowTable(){
             if (table[ligne][col] == F)
                 printf("%s \t", "🐜");
             else
-                printf("\x1b[ \x1b[0m  \n");
+                printf("\x1b[42m \x1b[0m  \n");
         }
         printf("\n");
     }
