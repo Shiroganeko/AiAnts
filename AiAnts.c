@@ -38,6 +38,8 @@ void ShowTable(){
         for (int col = 0; col < COL_QTT; col++){
             if (table[ligne][col] == F)
                 printf("%s \t", "🐜");
+            else
+                printf("\x1b[ \x1b[0m  \n");
         }
         printf("\n");
     }
